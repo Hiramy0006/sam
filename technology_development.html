@@ -38,7 +38,43 @@
 	
 		<!--Owl Carousel-->
 		
+		
+		<div class="owl-carousel owl-theme">
+			<div class="item"><img src="img/informacionnyhtehnologij.jpg"></div>
+			<div class="item"><img src="img/oth.jpg"></div>
+			<div class="item"><img src="img/th.jpg"></div>
+			<div class="item"><img src="img/shutterstoc.jpg"></div>							
+		</div>
 
+	</div>
+<!--SCRIPTS-->
+<script src="js/jquery.js"></script>
+	
+<!--Owl Carousel-->
+<link rel="stylesheet" href="owlcarousel/owl.carousel.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.css">	
+<script src="owlcarousel/owl.carousel.js"></script>
+<script>
+	$('.owl-carousel').owlCarousel({
+		loop:true,
+		autoWidth:true,
+		autoplay:true,
+		autoplayTimeout:1000,
+		autoplayHoverPause:true,
+		margin:10,
+		nav:false,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:3
+			},
+			1000:{
+				items:5
+			}
+		}
+	})
 </script>	
 	
 <br>
@@ -51,3 +87,4 @@
 
 </body>
 </html>
+
